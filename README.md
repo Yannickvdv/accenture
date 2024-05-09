@@ -8,7 +8,13 @@ Sorted list of countries by population density in descending order.
 Country in Asia containing the most bordering countries of a different region.
 ```
 
-## 
+## How to use
+
+This project was written using the Java SDK 22 with Language level 22. The reason being that I wanted to use the newest available version for this little project. Running the application is best done within the IntelliJ IDE, where it should work out-of-the-box. In order to view the output, run the `Main` class. 
+
+If an executable file is desired, go to the release tabs in GitHub to find the Jar file for this project.
+
+The project also contains two very simple tests found within the `tests` folder. These were used to test the functionality of the assigned functions.
 
 ## Design choices 
 There were some conscious design choices that affect performance. These choices were made because for this assignment I valued readability and maintainability over performance. In addition, there were no performance criteria or use case scenarios set for this assignment, so optimizing without any necessity seemed unnecessary (especially because we don't know how often this will be executed). However, I will quickly list the most obvious optimization choices:
